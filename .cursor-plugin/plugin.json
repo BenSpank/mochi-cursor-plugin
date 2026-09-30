@@ -1,0 +1,13 @@
+{
+  "name": "mochi-meet",
+  "displayName": "Mochi",
+  "version": "1.0.0",
+  "description": "Search and cite your Mochi meeting notes from Cursor: decisions, follow-ups and who said what, from your own meetings and your team's shared folders.",
+  "author": { "name": "Mochi", "email": "support@mochimeet.com" },
+  "homepage": "https://www.mochimeet.com",
+  "repository": "https://github.com/BenSpank/mochi-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": ["meetings", "meeting-notes", "decisions", "mcp", "mochi"],
+  "mcpServers": "mcp.json"
+}

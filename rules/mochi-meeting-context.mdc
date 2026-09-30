@@ -1,0 +1,16 @@
+---
+description: When a task traces back to a conversation, look it up in Mochi instead of guessing
+alwaysApply: true
+---
+
+Mochi holds this person's meeting notes, the notes in their teams' shared folders, and summaries of calls booked through their Mochi pages.
+
+Reach for it when the work clearly started in a conversation:
+- The person refers to a meeting, a call, "what we agreed", or a name in the context of a discussion.
+- You're about to make a product or design choice that sounds like it was debated before.
+- You're writing a PR description, spec or changelog for work that came out of a planning call or a customer call.
+- They ask what's on their calendar: use `list_upcoming_meetings`.
+
+Skip it for routine edits, refactors, and fixes with no history behind them. One search with `query_mochi_meetings` is usually enough to tell whether there's anything there.
+
+When you use something from Mochi, say which meeting it came from and when. If a note has `writtenBy`, a teammate wrote it; attribute it to them, not to the person you're helping.

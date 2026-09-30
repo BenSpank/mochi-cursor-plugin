@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "mochi": {
+      "url": "https://www.mochimeet.com/api/mcp"
+    }
+  }
+}
